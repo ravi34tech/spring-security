@@ -1,0 +1,17 @@
+server:
+  port: 9090
+spring:
+  security:
+    user:
+      name: admin
+      password: admin
+  jpa:
+    show-sql: true
+#    hibernate:
+#      ddl-auto: update
+  datasource:
+    driverClassName: oracle.jdbc.driver.OracleDriver
+    url: jdbc:oracle:thin:@localhost:1521:orcl
+    username: system
+    password: manager
+
